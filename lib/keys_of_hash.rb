@@ -1,7 +1,7 @@
 class Hash
   def keys_of(arguments)
     arr = []
-    arguments.each do |key, val|
+    map.each do |key, val|
       puts key
       puts val
     end
