@@ -4,6 +4,7 @@ class Hash
     map.each do |key, val|
       val.each do |val, data|
         puts val
+        puts data
         if val == arguments
           arr << key
         end
