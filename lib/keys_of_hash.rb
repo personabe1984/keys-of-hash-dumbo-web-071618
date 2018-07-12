@@ -3,9 +3,8 @@ class Hash
     arr = []
     map.each do |key, val|
       val.each do |val, data|
-        if val == arguments
-          arr << key
-        end
+        puts val
+        puts data
       end
     end
     return arr
