@@ -18,5 +18,5 @@ test_hash = {:animals  =>
     "koala"=>"Australia"} 
 }
 
-test_hash.is_a?(Hash)
+puts test_hash.is_a?(Hash)
 test_hash.keys_of('Panama')
