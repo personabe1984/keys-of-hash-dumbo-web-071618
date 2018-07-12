@@ -20,4 +20,4 @@ test_hash = {:animals  =>
 }
 
 #puts test_hash.is_a?(Hash)
-test_hash.keys_of('Panama')
+puts test_hash.keys_of('Panama')
