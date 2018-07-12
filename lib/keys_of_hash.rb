@@ -2,7 +2,7 @@ class Hash
   def keys_of(arguments)
     # code goes here
     arr = []
-    arr << argument
+    arr << arguments
     return arr
   end
 end
