@@ -17,3 +17,4 @@ test_hash =
     "koala"=>"Australia"} 
 }
 
+animals.keys_of('Panama')
