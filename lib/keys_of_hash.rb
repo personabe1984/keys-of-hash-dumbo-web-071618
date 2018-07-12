@@ -1,7 +1,10 @@
 class Hash
   def keys_of(arguments)
     arr = []
-    arguments.each do ||
+    arguments.each do |key, val|
+      puts key
+      puts val
+    end
     return arr
   end
 end
@@ -16,4 +19,4 @@ test_hash =
     "koala"=>"Australia"} 
 }
 
-puts animals.keys_of('Panama')
+animals.keys_of('Panama')
