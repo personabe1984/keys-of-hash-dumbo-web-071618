@@ -2,10 +2,8 @@ class Hash
   def keys_of(arguments)
     arr = []
     map.each do |key, val|
-      val.each do |val, data|
-        puts val
-        puts data
-      end
+      puts val
+      puts data
     end
     return arr
   end
