@@ -3,7 +3,8 @@ class Hash
     # code goes here
     arr = []
     arguments.each do |key, val|
-      arr << key
+      puts key
+      puts val
     end
     return arr
   end
