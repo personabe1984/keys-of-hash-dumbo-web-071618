@@ -18,4 +18,5 @@ test_hash = {:animals  =>
     "koala"=>"Australia"} 
 }
 
+test_hash.
 test_hash.keys_of('Panama')
