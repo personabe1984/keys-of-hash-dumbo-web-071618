@@ -3,7 +3,6 @@ class Hash
     arr = []
     map.each do |key, val|
       puts key
-      puts val
     end
     return arr
   end
