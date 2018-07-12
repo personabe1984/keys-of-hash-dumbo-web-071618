@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(*arguments)
+  def keys_of(arguments)
     arr = []
     map.each do |key, val|
       if val == arguments
