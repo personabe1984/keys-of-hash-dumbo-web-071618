@@ -2,9 +2,11 @@ class Hash
   def keys_of(arguments)
     arr = []
     map.each do |key, val|
-      puts val
-      if val == arguments
-        arr << key
+      val.each do |val, data|
+        puts val
+        if val == arguments
+          arr << key
+        end
       end
     end
     return arr
