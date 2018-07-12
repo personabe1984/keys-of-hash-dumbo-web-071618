@@ -2,6 +2,7 @@ class Hash
   def keys_of(arguments)
     arr = []
     map.each do |key, val|
+      puts val
       if val == arguments
         arr << key
       end
