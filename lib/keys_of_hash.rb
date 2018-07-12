@@ -14,6 +14,7 @@ class Hash
   end
 end
 
+=begin
 test_hash = {:animals  =>
   { "sugar glider"=>"Australia",
     "aye-aye"=> "Madagascar",
@@ -22,6 +23,6 @@ test_hash = {:animals  =>
     "tomato frog"=>"Madagascar",
     "koala"=>"Australia"} 
 }
-
+=end
 #puts test_hash.is_a?(Hash)
-puts test_hash.keys_of('Panama')
+#puts test_hash.keys_of('Panama')
